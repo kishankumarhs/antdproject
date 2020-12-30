@@ -1,111 +1,137 @@
-*{
+* {
   margin: 0;
   padding: 0;
   text-transform: capitalize;
-  
+
 
 }
-.App{
+
+.App {
   display: flex;
   flex: 1;
   -ms-overflow-style: none;
 }
 
-.items{
+.items {
   display: flex;
-  
+
 }
-.select{
+
+.select {
   justify-self: end;
 }
-.main-header{
+
+.main-header {
   font-size: medium;
 }
-.page-footer{
+
+.page-footer {
 
   text-align: center;
   background: #2f2f2f;
-  color:#fff;
-width: 100vw;
-height: 50px;
+  color: #fff;
+  width: 100vw;
+  height: 50px;
 }
-.mainContent{
+
+.mainContent {
   background: #ffff;
 }
-.firstRow{
+
+.firstRow {
   flex: 1;
   justify-content: center;
   align-items: center;
 
 }
-.FoodsHolder{
+
+.FoodsHolder {
   justify-content: center;
   align-items: center;
-  margin:10px 20px 10px 20px ;
-  border:solid 1px #FBE9E7
+  margin: 10px 20px 10px 20px;
+  border: solid 1px #FBE9E7
 }
-.FoodsMainArea{
-  
-  color:#ff5365;
-  padding:20px;
-}
-.foodBtnHolder{
-  position: relative;
 
+.FoodsMainArea {
+
+  color: #ff5365;
+  padding: 20px;
 }
-.vari{
+
+.foodBtnHolder {
+  display: flex;
+  flex-direction: row;
+  align-items: "center";
+  justify-content: "space-around",
+}
+
+.vari {
   border: solid 1px #1D7CD1;
   border-radius: 5px;
-  margin:5px
+  margin: 5px
 }
-.foodSpace{
+
+.foodSpace {
   position: absolute;
   right: 10px;
   bottom: 10px;
 }
-.bookBtn{
+
+.bookBtn {
   background: #FBE9E7;
-transition: all ease .5s;  
-margin-right: 20px;
-}
-.bookBtn:hover{
-  border-color: #FBE9E7;
-  color: #FBE9E7;
-}
-.viewAllBtn
-{
-  color: #FBb;
-margin-right: 20px;
+  transition: all ease .5s;
+  margin-right: 20px;
+  float: right;
+  margin-right: 30px;
 
 }
+
+.bookBtn:hover {
+  border-color: #FBE9E7;
+  color: #FBE9E7;
+  float: right;
+  margin-right: 30px;
+}
+
+.viewAllBtn {
+  color: #FBb;
+  margin-right: 20px;
+
+}
+
 /* Extra small devices (phones, 600px and down) */
-@media  screen and (max-width: 600px) {
-  .sortingContainer{
-  width: 100;
-  padding-left: 10px;
+@media screen and (max-width: 600px) {
+  .sortingContainer {
+    width: 100;
+    padding-left: 10px;
   }
-  .vari{
+
+  .vari {
     font-size: 12px;
     font-weight: bold;
   }
-  .viewAllBtn{
+
+  .viewAllBtn {
     width: 100px;
   }
-  .bookBtn{
+
+  .bookBtn {
     width: 100px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only  screen and (min-width :600px) {
-.sortingContainer{
-padding-left: 20px;
-}
-.vari{
-  font-size: 12px;
-  font-weight: bold;
-}
-/* .viewAllBtn{
+@media only screen and (min-width :600px) {
+  .sortingContainer {
+    padding-left: 20px;
+  }
+
+  .vari {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  /* .viewAllBtn{
   width: 100px;
   font-size: 12px;
 }
@@ -118,28 +144,35 @@ padding-left: 20px;
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-.sortingContainer{
-padding-left: 50px;
-}
+  .sortingContainer {
+    padding-left: 50px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .sortingContainer{
+  .sortingContainer {
     padding-left: 150px;
 
   }
-  
+
+}
+
+@media only screen and (max-width:500px) {
+  .foodBtnHolder {
+    flex-direction: row;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .sortingContainer{
+  .sortingContainer {
     width: 100;
     padding-left: 200px;
-    }
-    
+  }
+
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
   display: none;
 }

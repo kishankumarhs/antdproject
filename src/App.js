@@ -126,7 +126,7 @@ function App() {
   // };
   const renderItem = (item) => {
     const titleStyle = {
-      fontSize: ScWidth <= 700 ? "13px" : "1.1rem",
+      fontSize: ScWidth <= 700 ? "12px" : "1.1rem",
       fontWeight: ScWidth <= 700 ? "300" : "bold",
     };
     return (
@@ -141,6 +141,7 @@ function App() {
             lg={{ span: 11, offset: 1 }}
             md={19}
             sm={19}
+            xs={19}
             className="FoodsMainArea"
             style={{ alignItems: "center", justifyContent: "flex-end" }}
           >
@@ -158,7 +159,7 @@ function App() {
                 strong
                 style={{
                   color: "#F66574",
-                  fontSize: "12px",
+                  fontSize: ScWidth >= 800 ? "12px" : "10px",
                   textTransform: "uppercase",
                 }}
               >
@@ -168,7 +169,7 @@ function App() {
                 strong
                 style={{
                   color: "#0882C5",
-                  fontSize: "12px",
+                  fontSize: ScWidth >= 800 ? "12px" : "10px",
                   textTransform: "uppercase",
                 }}
               >
@@ -186,7 +187,7 @@ function App() {
                 strong
                 style={{
                   color: "#FF7D4C",
-                  fontSize: "12px",
+                  fontSize: ScWidth >= 800 ? "12px" : "10px",
                   textTransform: "uppercase",
                 }}
               >
@@ -195,12 +196,12 @@ function App() {
                   <Text
                     style={{
                       color: "#FF7D4C",
-                      fontSize: "12px",
+                      fontSize: ScWidth >= 800 ? "12px" : "10px",
                       textTransform: "uppercase",
                     }}
                     strong
                   >
-                    NO RATINGS
+                    0
                   </Text>
                 ) : (
                   <Text
@@ -258,6 +259,7 @@ function App() {
             lg={{ span: 11, offset: 1 }}
             md={5}
             sm={5}
+            xs={5}
             style={{
               display: "flex",
               flexDirection: "column",
@@ -268,39 +270,49 @@ function App() {
             <Button
               className="viewAllBtn"
               type="link "
-              size={window.innerWidth >= 600 ? "small" : "middle"}
+              size={window.innerWidth >= 800 ? "small" : "middle"}
               style={{
                 color: "#000",
               }}
               icon={<EyeOutlined />}
             >
-              {window.innerWidth <= 700 ? "" : "VIEW ALL ITEMS"}
+              {window.innerWidth <= 800 ? "" : "VIEW ALL ITEMS"}
             </Button>
             <Button
+              size={window.innerWidth >= 800 ? "small" : "middle"}
               style={{ background: "#FBE9E7" }}
               className="bookBtn"
               icon={<CalendarOutlined />}
             >
-              {window.innerWidth <= 700 ? "" : "BOOK APPONTMENT"}
+              {window.innerWidth <= 800 ? "" : "BOOK APPONTMENT"}
             </Button>
           </Col>
         </Row>
         <Row>
           <Col span={24}>
             {item.foods.map((i) => (
+              <>
               <Card bordered={false} style={{ width: "100%" }}>
-                <Space align="start"
-                style={{width:"50%"}}
-                split={''}
-                >
+                <Space align="start" style={{ width: "100%" }} split={""}>
                   <Meta
-                    avatar={<Avatar shape="square" size={60} src={i.imgUrl} />}
-                   
+                    avatar={
+                      <Avatar
+                        shape="square"
+                        size={ScWidth <= 700 ? 40 : 60}
+                        src={i.imgUrl}
+                      />
+                    }
                   />
-                  <div style={{width:"100%"}}>
-                  <Text strong style={titleStyle}>{i.foodTitle.toUpperCase()}</Text>
+                  <div style={{ width: "100%" }}>
+                    <Text strong style={titleStyle}>{i.foodTitle.toUpperCase()}</Text>
                   </div>
-                  <div>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      justifyContent: "space-between",
+                    }}
+                  >
                     {i.variant
                       ? i.variant.map((e) => (
                           <span
@@ -308,12 +320,11 @@ function App() {
                             style={{
                               background: "#EBF6FC",
                               color: "#1D7CD1",
-                              fontWeight: "bold",
                               fontSize:
-                                window.innerWidth <= 600 ? "10px" : "small",
+                                window.innerWidth <= 800 ? "8px" : "small",
                               padding: "2px",
-                              margin: "2px",
-                              borderWidth: "1px",
+                              margin: "5px",
+                              borderWidth: ".8px",
                               borderColor: "#1D7CD1",
                             }}
                           >
@@ -323,18 +334,19 @@ function App() {
                       : null}
                   </div>
                 </Space>
-
+               
                 <Space
                   style={{
                     justifyContent: "space-between",
                     alignItems: "flex-end",
-                    width: "50%",
+                    width: "100%",
                   }}
                   align="center"
                   className="InnerCardSection"
                 >
                   <Text strong> RS &nbsp;{i.price}</Text>
                   <Button
+                    size={ScWidth <= 800 ? 100 : "middle"}
                     type="primary"
                     style={{ backgroundColor: "#AAA", borderColor: "#aaa" }}
                     icon={<PlusOutlined />}
@@ -343,6 +355,8 @@ function App() {
                   </Button>
                 </Space>
               </Card>
+             
+              </>
             ))}
           </Col>
         </Row>

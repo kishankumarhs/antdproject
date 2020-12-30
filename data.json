@@ -1,0 +1,320 @@
+ [
+  {
+    "shop_address":"Near G. Narayanamma College, Shaikpet Road, Old Mumbai Road, Shaikpet, Hyderabad, Telangana 500008,Golconda,Hyderabad-500008",
+    "shop_distance": "6.1",
+    "rating": null,
+    "rating_cnt": null,
+    "delivery": "pickup",
+    "est_time": "1 hrs",
+    "contact": "1111111121",
+    "whatsapp": "NA",
+    "items": [
+      {
+        "ctgy_name": "tiffin Items",
+        "description": "dosa",
+        "created_at": 1607659982143,
+        "brand": "NA",
+        "item": "Dosa",
+        "key": 1607659982142,
+        "item_id": 1607659982142,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      },
+      {
+        "ctgy_name": "tiffin Items",
+        "description": "samosa",
+        "created_at": 1607661174176,
+        "brand": "NA",
+        "item": "samosa",
+        "key": 1607661174176,
+        "item_id": 1607661174176,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      }
+    ],
+    "shop_name": "Mobile Food Courts",
+    "free_delivery": true
+  },
+  {
+    "shop_address":
+      "13-6-434/c/61/a, Om Nagar, Maruthi Nagar, Langar Houz, Hyderabad, Telangana 500008,Golconda,Hyderabad-500008",
+    "shop_distance": "9.8",
+    "rating": null,
+    "rating_cnt": null,
+    "shop_image":
+      "https://lmo-dev-active-shopimages.s3.ap-south-1.amazonaws.com/10/40/1111111114-10-40-448410image1.jpg",
+    "delivery": "delivery",
+    "est_time": "45 mins",
+    "contact": "1111111114",
+    "whatsapp": "NA",
+    "items": [
+      {
+        "updated_timestamp": 1608099329695,
+        "ctgy_name": "tiffins",
+        "description": "for 20 persons",
+        "created_at": 1607551840775,
+        "brand": "NA",
+        "item": "Sambar Idli",
+        "key": 1607551840775,
+        "item_id": 1607551840775,
+        "itemImages":
+          "https://lmo-dev-private-inventory-item-images.s3.ap-south-1.amazonaws.com/10/1111111114/NA_Sambar Idli-1608099326576.jpg",
+        "stock": true
+      },
+      {
+        "updated_timestamp": 1608099350492,
+        "ctgy_name": "tiffins",
+        "description": "minimum plates 20",
+        "created_at": 1607551936521,
+        "brand": "NA",
+        "item": "Aloo Bonda",
+        "key": 1607551936521,
+        "item_id": 1607551936521,
+        "itemImages":
+          "https://lmo-dev-private-inventory-item-images.s3.ap-south-1.amazonaws.com/10/1111111114/NA_Aloo Bonda-1608099348450.jpg",        "stock": true
+      },
+      {
+        "updated_timestamp": 1608655973729,
+        "ctgy_name": "tiffins",
+        "description": "NA",
+        "brand": "NA",
+        "item": "Mysore Masala Dosa (Aloo)",
+        "created_timestamp": 1608655973729,
+        "key": 1608655973729,
+        "item_id": 1608655973729,
+        "itemImages":
+          "https://lmo-dev-private-inventory-item-images.s3.ap-south-1.amazonaws.com/10/1111111114/na_Mysore Masala Dosa (Aloo)-1608655972829.jpg",
+
+        "stock": true
+      },
+      {
+        "updated_timestamp": 1608704378152,
+        "ctgy_name": "tiffins",
+        "description": "NA",
+        "brand": "NA",
+        "item": "Gobi Butter Masala Dosa",
+        "created_timestamp": 1608704378152,
+        "key": 1608704378151,
+        "item_id": 1608704378151,
+        "itemImages":
+          "https://lmo-dev-private-inventory-item-images.s3.ap-south-1.amazonaws.com/10/1111111114/na_Gobi Butter Masala Dosa-1608704377478.jpg",
+
+        "stock": true
+      },
+      {
+        "updated_timestamp": 1608704420844,
+        "ctgy_name": "tiffins",
+        "description": "NA",
+        "brand": "NA",
+        "item": "Aloo Schezwan Masala Dosa",
+        "created_timestamp": 1608704420844,
+        "key": 1608704420843,
+        "item_id": 1608704420843,
+        "itemImages":
+          "https://lmo-dev-private-inventory-item-images.s3.ap-south-1.amazonaws.com/10/1111111114/na_Aloo Schezwan Masala Dosa-1608704420132.jpg",
+
+        "stock": true
+      },
+      {
+        "updated_timestamp": 1608704445504,
+        "ctgy_name": "tiffins",
+        "description": "NA",
+        "brand": "NA",
+        "item": "Aloo Baby Corn Cheese Dosa",
+        "created_timestamp": 1608704445504,
+        "key": 1608704445503,
+        "item_id": 1608704445503,
+        "itemImages":"https://lmo-dev-private-inventory-item-images.s3.ap-south-1.amazonaws.com/10/1111111114/na_Aloo Baby Corn Cheese Dosa-1608704444791.jpg",
+        "stock": true
+      },
+      {
+        "updated_timestamp": 1608704460947,
+        "ctgy_name": "tiffins",
+        "description": "NA",
+        "brand": "NA",
+        "item": "Nutella Chocolate Dosa",
+        "created_timestamp": 1608704460947,
+        "key": 1608704460946,
+        "item_id": 1608704460946,
+        "itemImages":"https://lmo-dev-private-inventory-item-images.s3.ap-south-1.amazonaws.com/10/1111111114/na_Nutella Chocolate Dosa-1608704460245.jpg",
+        "stock": true
+      },
+      {
+        "updated_timestamp": 1608704179676,
+        "ctgy_name": "vegetarian thali",
+        "description": "NA",
+        "brand": "NA",
+        "item": "tea",
+        "created_timestamp": 1608704179676,
+        "key": 1608704179676,
+        "item_id": 1608704179675,
+        "itemImages":"https://lmo-dev-private-inventory-item-images.s3.ap-south-1.amazonaws.com/10/1111111114/na_tea-1608704179017.jpg",
+        "stock": true
+      }
+    ],
+    "shop_name": "Catering",
+    "free_delivery": true
+  },
+  {
+    "shop_address":"opposite to shams dairy farm, Khader Bagh, Rethibowli, Mehdipatnam, Hyderabad, Telangana 500008,Golconda,Hyderabad-500008",
+    "shop_distance": "7.3",
+    "rating": null,
+    "rating_cnt": null,
+    "delivery": "delivery",
+    "est_time": "45 mins",
+    "contact": "1111111116",
+    "whatsapp": "NA",
+    "items": [
+      {
+        "ctgy_name": "chat items",
+        "description": "chat",
+        "created_at": 1607554744507,
+        "brand": "NA",
+        "item": "Mirchi Chat",
+        "key": 1607554744506,
+        "item_id": 1607554744506,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      },
+      {
+        "ctgy_name": "chat items",
+        "description": "dahi puri",
+        "created_at": 1607649669404,
+        "brand": "NA",
+        "item": "dahi puri",
+        "key": 1607649669404,
+        "item_id": 1607649669404,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      },
+      {
+        "ctgy_name": "chat items",
+        "description": "aloo tikki",
+        "created_at": 1607649733627,
+        "brand": "NA",
+        "item": "Aloo Tikki Chat",
+        "key": 1607649733627,
+        "item_id": 1607649733627,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      },
+      {
+        "ctgy_name": "chat items",
+        "description": "ada pav",
+        "created_at": 1607649817561,
+        "brand": "NA",
+        "item": "vada pav",
+        "key": 1607649817561,
+        "item_id": 1607649817561,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      },
+      {
+        "ctgy_name": "sweets",
+        "description": "jamoon",
+        "created_at": 1607649883284,
+        "brand": "NA",
+        "item": "gulab jamoon",
+        "key": 1607649883284,
+        "item_id": 1607649883284,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      },
+      {
+        "ctgy_name": "sweets",
+        "description": "jalebi",
+        "created_at": 1607649925774,
+        "brand": "NA",
+        "item": "jalebi",
+        "key": 1607649925773,
+        "item_id": 1607649925773,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      },
+      {
+        "ctgy_name": "sweets",
+        "description": "Rasmali",
+        "created_at": 1607649965127,
+        "brand": "NA",
+        "item": "Rasmalai",
+        "key": 1607649965126,
+        "item_id": 1607649965126,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      }
+    ],
+    "shop_name": "Chat Bandar",
+    "free_delivery": true
+  },
+  {
+    "shop_address": "9_4_29/B/43/C, Hakimpet Rd, Mehraj Colony, Nizam Colony, Hakimpet, Hyderabad, Telangana 500008,Golconda,Hyderabad-500008",
+    "shop_distance": "7.5",
+    "rating": null,
+    "rating_cnt": null,
+    "delivery": "delivery",
+    "est_time": "2 hrs",
+    "contact": "1111111117",
+    "whatsapp": "NA",
+    "items": [
+      {
+        "ctgy_name": "milk sweets",
+        "description": "Kova",
+        "created_at": 1607651164030,
+        "brand": "NA",
+        "item": "Kova Kajji",
+        "key": 1607651164030,
+        "item_id": 1607651164030,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      },
+      {
+        "ctgy_name": "milk sweets",
+        "description": "Kalakand",
+        "created_at": 1607651200273,
+        "brand": "NA",
+        "item": "Kalakand",
+        "key": 1607651200272,
+        "item_id": 1607651200272,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      },
+      {
+        "ctgy_name": "milk sweets",
+        "description": "Kova",
+        "created_at": 1607651361256,
+        "brand": "NA",
+        "item": "Kova Billalu",
+        "key": 1607651361256,
+        "item_id": 1607651361256,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      },
+
+      {
+        "ctgy_name": "Hot items",
+        "description": "jantikalu",
+        "created_at": 1607655309846,
+        "brand": "NA",
+        "item": "jantikalu",
+        "key": 1607655309846,
+        "item_id": 1607655309846,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      },
+
+      {
+        "ctgy_name": "Laddu",
+        "description": "Laddu",
+        "created_at": 1607655708840,
+        "brand": "NA",
+        "item": "Ravva laddu",
+        "key": 1607655708840,
+        "item_id": 1607655708840,
+        "itemImages": "https://item-images.lmoasset.com/food/Dosa.jpg",
+        "stock": true
+      }
+    ],
+    "shop_name": "Sweet Shops",
+    "free_delivery": true
+  }
+]
